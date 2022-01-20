@@ -7,13 +7,13 @@ package of 5 samples of beauty products. They then have the option to purchase t
 most.
 At the heart of Birchbox’s business model is their personalized assortment algorithm – how do we 
 decide which five samples to send to each customer every month? The real problem spans several 
-analytics dimensions:
+analytics dimensions:  
 **Descriptive:** How do we gather information about customers and then process that information to 
-make it useful for the prediction algorithms?
+make it useful for the prediction algorithms?  
 **Predictive:** How do we take the characteristic information about products and customers to predict the 
-purchase probability of each customer-product match?
+purchase probability of each customer-product match?  
 **Prescriptive:** Which 5 products should we assign each customer to achieve our objectives while 
-adhering to our constraints?
+adhering to our constraints?  
 Naturally, this problem will focus on the prescriptive part of the process – we will take the other parts 
 as given and simplified in certain regards. I have also reduced the size of the problem considerably to 
 reduce computation times (the real problem contains more than a million customers and over 800 
