@@ -4,10 +4,12 @@ The subscription box retail business model has been one of the fastest growing p
 in the past decade (e.g., see here and here). This problem is inspired by the beauty subscription box 
 company Birchbox (see https://www.birchbox.com/). Subscribers pay a fixed fee to receive a monthly 
 package of 5 samples of beauty products. They then have the option to purchase the items they like 
-most.
+most.  
+  
 At the heart of Birchbox’s business model is their personalized assortment algorithm – how do we 
 decide which five samples to send to each customer every month? The real problem spans several 
 analytics dimensions:  
+  
 **Descriptive:** How do we gather information about customers and then process that information to 
 make it useful for the prediction algorithms?  
 **Predictive:** How do we take the characteristic information about products and customers to predict the 
@@ -21,7 +23,7 @@ brand partners). Nevertheless, the underlying structure of the problem and the h
 involved to solve it remain realistic. 
 ## Data
 The file “Birchbox_data.xlsx” contains 2 sheets. The “item info” sheet contains information about the 
-samples Birchbox has in stock:
+samples Birchbox has in stock:  
 * Item – an index number for the SKU
 * Category – an integer denoting the type of sample (lotion, cleanser,…etc)
 * Inventory – the number of sample units available to ship this month
