@@ -16,6 +16,7 @@ make it useful for the prediction algorithms?
 purchase probability of each customer-product match?  
 **Prescriptive:** Which 5 products should we assign each customer to achieve our objectives while 
 adhering to our constraints?  
+  
 Naturally, this problem will focus on the prescriptive part of the process – we will take the other parts 
 as given and simplified in certain regards. I have also reduced the size of the problem considerably to 
 reduce computation times (the real problem contains more than a million customers and over 800 
