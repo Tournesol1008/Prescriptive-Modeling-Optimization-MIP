@@ -23,16 +23,17 @@ reduce computation times (the real problem contains more than a million customer
 brand partners). Nevertheless, the underlying structure of the problem and the high-level processes 
 involved to solve it remain realistic. 
 ## Data
-The file “Birchbox_data.xlsx” contains 2 sheets. The “item info” sheet contains information about the 
-samples Birchbox has in stock:  
+The file “Birchbox_data.xlsx” contains 2 sheets.   
+
+The “item info” sheet contains information about the samples Birchbox has in stock:  
 * Item – an index number for the SKU
 * Category – an integer denoting the type of sample (lotion, cleanser,…etc)
 * Inventory – the number of sample units available to ship this month
 * Sample cost – the cost to send the sample.
 * Margin if purchase – the profit if a customer decides to purchase the sample product.
 * PurchaseProb_X – the output of the proprietary prediction model that predicts the probability 
-of purchase for a customer in segment X. 
-The “cust info” sheet contains information about the customer subscriber base:
+of purchase for a customer in segment X.   
+The “cust info” sheet contains information about the customer subscriber base:  
 * Cust – an index number for the customer
 * Seg – the segment number to be used to determine the purchase probability
 * Item X – a binary indicator for each item, where a 1 indicates that the customer has already 
