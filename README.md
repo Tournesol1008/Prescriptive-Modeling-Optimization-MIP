@@ -31,9 +31,10 @@ The “item info” sheet contains information about the samples Birchbox has in
 * Inventory – the number of sample units available to ship this month
 * Sample cost – the cost to send the sample.
 * Margin if purchase – the profit if a customer decides to purchase the sample product.
-* PurchaseProb_X – the output of the proprietary prediction model that predicts the probability 
-of purchase for a customer in segment X.   
+* PurchaseProb_X – the output of the proprietary prediction model that predicts the probability of purchase for a customer in segment X.   
+  
 The “cust info” sheet contains information about the customer subscriber base:  
+  
 * Cust – an index number for the customer
 * Seg – the segment number to be used to determine the purchase probability
 * Item X – a binary indicator for each item, where a 1 indicates that the customer has already 
